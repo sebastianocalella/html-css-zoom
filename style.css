@@ -69,6 +69,13 @@ footer button{
     border: none;
 }
 
+footer .select-list{
+    position: absolute;
+    left: 100%;
+    top: 10%;
+    font-size: 1rem;
+}
+
 .user-input{
     width: 12vw;
     justify-content: space-evenly;
