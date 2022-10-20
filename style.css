@@ -47,6 +47,7 @@ main{
 
 footer{
     position: fixed;
+    justify-content: space-between;
     width: 100vw;
     height: 3.2rem;
     bottom: 0;
@@ -64,4 +65,9 @@ footer button{
     width: 12vw;
     justify-content: space-evenly;
     align-items: center;
+}
+
+footer .toolbar{
+    width: 30vw;
+    justify-content: space-evenly;
 }
