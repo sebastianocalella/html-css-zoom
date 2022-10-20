@@ -71,8 +71,8 @@ footer button{
 
 footer .select-list{
     position: absolute;
-    left: 100%;
-    top: 10%;
+    left: 80%;
+    top: 0;
     font-size: 1rem;
 }
 
@@ -88,6 +88,10 @@ footer .toolbar{
     align-items: center;
 }
 
+.fa-share-from-square{
+    color: rgb(0, 185, 0);
+}
+
 .leave{
     background-color: darkgray;
     text-align: center;
@@ -97,3 +101,5 @@ footer .toolbar{
 .leave :only-child{
     color: red;
 }
+
+
