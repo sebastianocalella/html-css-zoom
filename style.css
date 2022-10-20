@@ -15,6 +15,23 @@
     flex-wrap: wrap;
 }
 
+body>.toolbar{
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    z-index: 1;;
+}
+
+body>.toolbar button{
+    border: none;
+    font-size: .8rem;
+    padding: .2rem .4rem;
+    border-radius: .3rem;
+    margin-left: .2rem;
+    background-color: rgb(255, 255, 255, 0.3);
+    color: white;
+}
+
 main{
     height: 100vh;
     background-color: black;
