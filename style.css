@@ -6,14 +6,37 @@
     box-sizing: border-box;
 }
 
+.relative{
+    position: relative;
+}
+
 main{
     background-color: black;
+    padding: 10vh 5vw 10vh;
+}
+
+.user-card{
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    background-color: aqua;
+}
+
+.user-status{
+    position: absolute;
+    font-size: .8rem;
+    background-color: grey;
+    color: white;
+    bottom: 0;
+    left: 0;
+    padding: .2rem;
 }
 
 footer{
     position: fixed;
     width: 100vw;
-    height: 5vh;
+    height: 8vh;
+    bottom: 0;
     background-color: rgb(63, 60, 60);
     color: white;
 }
