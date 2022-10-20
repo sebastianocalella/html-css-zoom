@@ -10,16 +10,29 @@
     position: relative;
 }
 
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 main{
+    height: 100vh;
     background-color: black;
-    padding: 10vh 5vw 10vh;
+    padding: 7vh 3vw 10vh;
+}
+
+.container{
+    justify-content: space-evenly;
+    align-content: space-between;
+    height: 90%;
 }
 
 .user-card{
     display: inline-block;
-    width: 250px;
-    height: 150px;
+    width: 170px;
+    height: 100px;
     background-color: aqua;
+    border: 3px solid red;
 }
 
 .user-status{
