@@ -71,3 +71,13 @@ footer .toolbar{
     width: 30vw;
     justify-content: space-evenly;
 }
+
+.leave{
+    background-color: darkgray;
+    text-align: center;
+    padding: 1rem 2rem 0;
+}
+
+.leave :only-child{
+    color: red;
+}
