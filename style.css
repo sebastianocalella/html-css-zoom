@@ -46,10 +46,7 @@ main{
 
 .user-card{
     display: inline-block;
-    width: 170px;
-    height: 100px;
-    background-color: aqua;
-    border: 3px solid red;
+    margin: .2rem;
 }
 
 .user-status{
